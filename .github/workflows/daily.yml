@@ -3,7 +3,7 @@ name: Daily push
 on:
   push:
   schedule:
-    - cron: '16 23 * * *'
+    - cron: '26 23 * * *'
 
 jobs:
   build:
